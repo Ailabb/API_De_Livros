@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaApiDeLivros", "MinhaApiDeLivros\MinhaApiDeLivros.csproj", "{91FF57A7-49EB-4898-95F7-F642D5FB5CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhaApiDeLivros", "MinhaApiDeLivros\MinhaApiDeLivros.csproj", "{91FF57A7-49EB-4898-95F7-F642D5FB5CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLivros.Infra", "ApiLivros.Infra\ApiLivros.Infra.csproj", "{03B039A2-4C96-4BA8-89DD-D3DE6ACE4DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLivros.Application", "ApiLivros.Application\ApiLivros.Application.csproj", "{33D6055C-F687-4E1A-ABEC-ED60ABA8E1AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{91FF57A7-49EB-4898-95F7-F642D5FB5CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91FF57A7-49EB-4898-95F7-F642D5FB5CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91FF57A7-49EB-4898-95F7-F642D5FB5CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B039A2-4C96-4BA8-89DD-D3DE6ACE4DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B039A2-4C96-4BA8-89DD-D3DE6ACE4DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B039A2-4C96-4BA8-89DD-D3DE6ACE4DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B039A2-4C96-4BA8-89DD-D3DE6ACE4DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D6055C-F687-4E1A-ABEC-ED60ABA8E1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D6055C-F687-4E1A-ABEC-ED60ABA8E1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D6055C-F687-4E1A-ABEC-ED60ABA8E1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D6055C-F687-4E1A-ABEC-ED60ABA8E1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
